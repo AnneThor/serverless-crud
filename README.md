@@ -38,13 +38,9 @@ There is no front end, so this app won't do much from the direct link but there 
 
 ```/client/delete/{clientID}```: a ```DELETE``` method to this route will delete the client record with the id corresponding to the ```clientID``` param
 
-## UML Diagram
+## Lambda Function Source Code
 
-![UML diagram of basic express server project](./assets/Lab18.png)
-
-## Note on organization of source
-
-Each Lambda function was separately deployed; in this repository, each separate index.js and corrolary zip file are stored under files named by their functionality. The model for the DynamoDB communication is also included under the models file.
+Each Lambda function was separately deployed; in this repository, each separate index.js and corollary zip file are stored under files named by their functionality. The model for the DynamoDB communication is also included under the models file.
 
 Source code for the lambda functions are located as follows:
 
@@ -57,3 +53,7 @@ Source code for the lambda functions are located as follows:
 [Update / PUT route](./update/index.js)
 
 [Dynamoose/DynamoDB Model](./Models/clientSchema.js)
+
+## UML Diagram
+
+![UML diagram of basic express server project](./assets/Lab18.png)
