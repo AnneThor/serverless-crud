@@ -1,0 +1,23 @@
+{
+  "name": "serverless-crud",
+  "version": "1.0.0",
+  "description": "All code required for the serverless AWS API Gateway App and Lambda Functions",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnneThor/serverless-crud.git"
+  },
+  "author": "Anne Thorsteinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnneThor/serverless-crud/issues"
+  },
+  "homepage": "https://github.com/AnneThor/serverless-crud#readme",
+  "dependencies": {
+    "dynamoose": "^2.7.3",
+    "uuid": "^8.3.2"
+  }
+}
