@@ -7,7 +7,9 @@ A simple CRUD app build using Node.js, AWS DynamoDB, dynamoose, AWS Lambda, AWS 
 
 ```.env``` requirements: no requirements
 
-**[Live Version at AWS](https://kfua3zse5h.execute-api.us-west-2.amazonaws.com)
+**[Live Version at AWS](https://kfua3zse5h.execute-api.us-west-2.amazonaws.com)**
+
+*Note that the main link will not return anything, you will need to access via the endpoints specified below!!!
 
 ## App Functionality / Database
 
