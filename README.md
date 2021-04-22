@@ -41,3 +41,19 @@ There is no front end, so this app won't do much from the direct link but there 
 ## UML Diagram
 
 ![UML diagram of basic express server project](./assets/Lab18.png)
+
+## Note on organization of source
+
+Each Lambda function was separately deployed; in this repository, each separate index.js and corrolary zip file are stored under files named by their functionality. The model for the DynamoDB communication is also included under the models file.
+
+Source code for the lambda functions are located as follows:
+
+[Create / POST route](./create/index.js)
+
+[Read / both GET routes](./read/index.js)
+
+[Delete / DELETE route](./delete/index.js)
+
+[Update / PUT route](./update/index.js)
+
+[Dynamoose/DynamoDB Model](./Models/clientSchema.js)
